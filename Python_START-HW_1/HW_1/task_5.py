@@ -11,3 +11,9 @@
 11 5
 9.22
 """
+x1 = float(input("введите координату х1 "))
+y1 = float(input("введите координату y1 "))
+x2 = float(input("введите координату х2 "))
+y2 = float(input("введите координату y2 "))
+distance = (x2 - x1) **2 + (y2 - y1) **2
+print (round (distance, 2))
