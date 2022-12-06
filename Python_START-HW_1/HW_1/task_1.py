@@ -17,9 +17,11 @@ False
 """
 num_dey = int(input("введите день недели "))
 if  num_dey  == 6 or  num_dey == 7:
-    print(True)
-else:
-    print(False)
+     print("выходной")
+elif (num_dey >= 1 and num_dey <= 5):
+     print ("рабочий")
+else: 
+    print (False)
 
 
 
