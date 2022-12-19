@@ -11,3 +11,8 @@
 [5, 1, 5, 2, 7, 11]
 14
 """
+list_1 = [2, 3, 4, 3, 2, 1]
+sum = 0
+for i in range(1, len(list_1), 2):
+    sum += list_1[i]
+print(sum) 

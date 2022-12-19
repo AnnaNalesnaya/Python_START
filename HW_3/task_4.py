@@ -14,3 +14,11 @@
 2
 10
 """
+num_1 = int(input("введите число "))
+num_2 = ''
+while num_1 > 0:
+    num_3 = num_1 % 2
+    num_1 = num_1 // 2
+    num_2 += str(num_3)
+print(int(num_2[::-1])) 
+   
